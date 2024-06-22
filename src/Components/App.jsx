@@ -52,7 +52,7 @@ function ParallaxText({ children, baseVelocity = 100 }) {
 
 export default function App() {
   const images = [
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+    "./images/react.png",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1969px-Laravel.svg.png",
     "https://avatars.githubusercontent.com/u/47703742?s=200&v=4",
     "https://upload.wikimedia.org/wikipedia/labs/8/8e/Mysql_logo.png",
