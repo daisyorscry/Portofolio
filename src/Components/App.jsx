@@ -83,14 +83,14 @@ export default function App() {
         </div>
 
         <div className="flex flex-wrap">
-          <ParallaxText baseVelocity={-5}>
+          <ParallaxText baseVelocity={-5}>r
             {repeatedImages.map((img, index) => (
-              <img key={index} src={img} alt={`Image ${index}`} className="w-24 h-24 mx-10 object-cover" />
+              <img key={index} src={img} alt={`Image ${index}`} className="block w-32 h-24 mx-10" />
             ))}
           </ParallaxText>
           <ParallaxText baseVelocity={5}>
             {repeatedImages.map((img, index) => (
-              <img key={index} src={img} alt={`Image ${index}`} className="w-24 h-24 mx-10 object-cover" />
+              <img key={index} src={img} alt={`Image ${index}`} className="block w-32 h-24 mx-10" />
             ))}
           </ParallaxText>
         </div>
